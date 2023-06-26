@@ -1,0 +1,10 @@
+.foto{
+    width: 100%;  
+}
+.my-dropdown-toggle::after {
+
+    display: none !important;
+  }
+.button-style{
+    padding-left: 750px;
+}
