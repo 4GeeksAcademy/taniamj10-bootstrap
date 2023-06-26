@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed de IG con Bootstrap</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="https://www.instagram.com">
+                    <i class="fa-brands fa-instagram"></i>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/800px-Instagram_logo.svg.png"
+                        alt="" width="100" height="24" class="d-inline-block img-fluid align-top">
+                </a>
+                <p>
+                    <button class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseWidthExample" aria-expanded="false"
+                        aria-controls="collapseWidthExample">
+                        Toggle width collapse
+                    </button>
+                </p>
+                <div style="min-height: 120px;">
+                    <div class="collapse-horizontal collapse" id="collapseWidthExample" style="">
+                        <div class="card card-body" style="width: 300px;">
+                            This is some placeholder content for a horizontal collapse. It's hidden by default and shown
+                            when triggered.
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-regular fa-gear fa-xs"></i>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                            <li><a class="dropdown-item" href="#">Pivacity and Data</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Log out</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        <div class="container border border-danger border-5">
+            <div class="row border border-primary border-3">
+                <div>
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
+                                type="button" role="tab" aria-controls="home" aria-selected="true"><i
+                                    class="fa-solid fa-table-cells fa-lg" style="color:#938f91;"></i></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                                type="button" role="tab" aria-controls="profile" aria-selected="false"><i
+                                    class="fa-solid fa-square fa-lg" style="color:#938f91;"></i></button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="row m-3">
+                                <div class=" col-4 d-flex justify-content-start">
+                                    <img class="foto"
+                                        src="https://i.pinimg.com/564x/f7/62/4e/f7624ef89e7bc706cd406bb5defbaafd.jpg">
+
+                                </div>
+                                <div class=" col-4 d-flex justify-content-start">
+                                    <img class="foto"
+                                        src="https://i.pinimg.com/564x/ba/d0/ed/bad0edaca2ee0ab64871a45fed7e3954.jpg">
+                                </div>
+                                <div class=" col-4 d-flex justify-content-start">
+                                    <img class="foto"
+                                        src="https://i.pinimg.com/564x/6e/71/cc/6e71ccbeed1cd55c86201911a2fc574b.jpg">
+                                </div>
+                            </div>
+                            <div class="row m-3">
+                                <div class=" col-4 d-flex justify-content-start ">
+                                    <img class="foto"
+                                        src="https://i.pinimg.com/564x/ff/73/62/ff7362c18f1cd18d395543452190f883.jpg">
+                                </div>
+                                <div class=" col-4 d-flex justify-content-start ">
+                                    <img class="foto"
+                                        src="https://i.pinimg.com/564x/bb/95/fb/bb95fb38cb3645db3abcd9ec4f5b0ceb.jpg">
+                                </div>
+                                <div class=" col-4 d-flex justify-content-start ">
+                                    <img class="foto"
+                                        src="https://i.pinimg.com/564x/1f/3f/9a/1f3f9a3ef03f02452ca5d9080beb9e5b.jpg">
+                                </div>
+                            </div>
+                            <div class="row m-3">
+                                <div class=" col-4 d-flex justify-content-start">
+                                    <img class="foto"
+                                        src="https://i.pinimg.com/564x/53/98/d6/5398d654870814cb97789f2538c1ae8d.jpg">
+                                </div>
+                                <div class=" col-4 d-flex justify-content-start">
+                                    <img class="foto"
+                                        src="https://i.pinimg.com/564x/65/9b/2e/659b2ed9ea8d10bb46f878dab8034b01.jpg">
+                                </div>
+                                <div class=" col-4 d-flex justify-content-start">
+                                    <img class="foto"
+                                        src="https://i.pinimg.com/564x/2b/f9/f9/2bf9f997e7b4db9ae62f3b713f480f53.jpg">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <div class="row border border-primary border-3"> Foto1 </div>
+                            <div class="row border border-primary border-3"> Foto2 </div>
+                            <div class="row border border-primary border-3"> Foto3 </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
