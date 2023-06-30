@@ -7,3 +7,10 @@
 .cuadricula-estilo{
     padding-left: 45% !important;
 }
+.header-post{
+    display:flex;
+    justify-content: space-between;
+    padding: 5px;
+    height: 65px;
+    align-items: center;
+}
